@@ -21,7 +21,7 @@ export default function Accessibility() {
         <title>Accessibility Statement | Estates Pressure Washing</title>
         <meta
           name="description"
-          content="Estates Pressure Washing is committed to digital accessibility and inclusive web experiences. Our website features comprehensive accessibility tools including keyboard navigation, screen reader compatibility, font enlargement, color contrast adjustments, and WCAG 2.1 AA compliance to serve all users effectively."
+          content="Estates Pressure Washing is committed to digital accessibility and inclusive web experiences. Learn about our WCAG 2.1 AA compliance efforts and accessibility features."
         />
         <meta
           name="keywords"
@@ -36,7 +36,7 @@ export default function Accessibility() {
             image: "https://www.estatespresswash.com/AboutHero.jpeg",
             logo: "https://www.estatespresswash.com/logo.png",
             description:
-              "Estates Pressure Washing is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website.",
+              "Estates Pressure Washing is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability.",
             telephone: "+1-267-685-0530",
             email: "epw@estatesfireplace.com",
             address: {
@@ -66,141 +66,65 @@ export default function Accessibility() {
         <article
           className={`prose ${darkMode ? "prose-invert" : ""} max-w-4xl mx-auto [&>ul]:list-disc [&>ul]:list-inside`}
         >
-          <h1>Declaration of Accessibility Introduction</h1>
+          <h1>Accessibility Statement</h1>
           <p>
-            The Internet constitutes the largest resource supporting freedom of
-            information today for the user community in general and for users
-            with disabilities in particular. For that reason we place emphasis
-            on:
+            Estates Pressure Washing is committed to ensuring digital
+            accessibility for people with disabilities. We are continually
+            improving the user experience for everyone and applying the relevant
+            accessibility standards.
+          </p>
+
+          <h2>Conformance Status</h2>
+          <p>
+            The Web Content Accessibility Guidelines (WCAG) defines requirements
+            for designers and developers to improve accessibility for people with
+            disabilities. It defines three levels of conformance: Level A, Level
+            AA, and Level AAA. Our website strives to conform to WCAG 2.1 Level
+            AA. We are actively working to achieve and maintain this level of
+            compliance across all pages.
+          </p>
+
+          <h2>Accessibility Features</h2>
+          <p>
+            Our website includes the following accessibility features:
           </p>
           <ul>
-            <li>
-              Granting equal service to people with disabilities who use
-              information displayed on the website
-            </li>
-            <li>Improving their browsing experience</li>
-            <li>
-              Ensuring our digital services will be accessible to people with
-              disabilities
-            </li>
-            <li>Continuously improving our web pages as needed</li>
+            <li>Keyboard navigation support throughout the site</li>
+            <li>Screen reader compatibility with ARIA landmarks and labels</li>
+            <li>Sufficient color contrast ratios for text and interactive elements</li>
+            <li>Resizable text without loss of content or functionality</li>
+            <li>Alternative text for all meaningful images</li>
+            <li>Consistent and predictable navigation</li>
+            <li>An on-demand accessibility tools panel for font sizing, contrast adjustments, and more</li>
           </ul>
 
-          <h2>Using the EqualWeb website accessibility tool</h2>
+          <h2>Measures to Support Accessibility</h2>
           <p>
-            This website employs the Nagich By Click accessibility software and
-            is connected through a special accessibility server. The software
-            complies with Israeli standard SI 5568 at AA level. The software is
-            subject to the manufacturer's Terms of Use. The website owners
-            and/or agents bear the responsibility for the usage and
-            implementation on the website, including the content displayed on
-            the website under the Terms of Use of the Software.
+            Estates Pressure Washing takes the following measures to ensure
+            accessibility:
           </p>
-
-          <h2>How does the site's accessibility work?</h2>
-          <ul>
-            <li>The website features an accessibility menu</li>
-            <li>A click on the menu makes accessibility buttons available</li>
-            <li>
-              After selecting a menu item, the user should wait for the page to
-              be loaded
-            </li>
-          </ul>
-
-          <h2>What are the mean items?</h2>
-          <ul>
-            <li>Option for keyboard-based navigation</li>
-            <li>Adaptation of the website for NVDA assistive technology</li>
-            <li>
-              Enlargement of the font on the website to 4 levels of
-              magnification
-            </li>
-            <li>Immobilization of moving elements, and stoppage of blinking</li>
-            <li>Altered color contrast against dark background</li>
-            <li>Altered color contrast against light background</li>
-            <li>Adaptation for color-blind users</li>
-            <li>Change of font for better readability</li>
-            <li>Enlarged cursor, and change of color to black or white</li>
-            <li>Enlargement of display to ~200%</li>
-            <li>Emphasizing links on the website</li>
-            <li>Emphasizing headings on the website</li>
-            <li>Presentation of alt text to graphics</li>
-            <li>Declaration of accessibility</li>
-            <li>Sending of accessibility feedback</li>
-          </ul>
-
-          <h2>Clarification</h2>
-          <p>
-            Despite our efforts to apply accessibility to browsing on every
-            webpage, it may be discovered that some of webpages have not yet
-            received accessibility or are not suitable for any available
-            accessibility solution.
-          </p>
-          <p>
-            We are continuing the effort to improve the website's accessibility
-            to the full extent possible, guided by our belief, and by our moral
-            commitment, that the website should be usable by the entire
-            population, including people with disabilities.
-          </p>
-
-          <h2>Measures to support accessibility</h2>
           <ul>
             <li>Include accessibility as a requirement for all web content</li>
-            <li>
-              Content must meet WCAG 2.1 AA, and should meet AAA as feasible
-            </li>
+            <li>Content must meet WCAG 2.1 AA, and should meet AAA where feasible</li>
             <li>Assign clear accessibility goals and responsibilities</li>
-            <li>
-              Ensure content authors have access to accessibility knowledge and
-              skills
-            </li>
+            <li>Ensure content authors have access to accessibility knowledge and skills</li>
             <li>Include accessibility as part of our technology mission</li>
-            <li>
-              Include accessibility throughout our website-related internal
-              policies
-            </li>
+            <li>Conduct periodic reviews to maintain and improve compliance</li>
           </ul>
 
-          <h2>Conformance status</h2>
+          <h2>Compatibility with Browsers and Assistive Technology</h2>
           <p>
-            The Web Content Accessibility Guidelines (WCAG) standard defines
-            requirements to improve accessibility for people with disabilities.
-            It defines three levels of conformance:
+            Our website is designed to be compatible with the following assistive
+            technologies:
           </p>
           <ul>
-            <li>Level A</li>
-            <li>Level AA</li>
-            <li>Level AAA</li>
-          </ul>
-          <p>
-            "Fully conforms" means that the content meets all of the WCAG
-            requirements at the specified Level without exceptions. We strive to
-            be/remain fully compliant with an annual review of our website.
-          </p>
-
-          <h2>Feedback</h2>
-          <p>
-            We welcome your feedback on the accessibility of our website. Please
-            let us know if you encounter accessibility barriers.
-          </p>
-
-          <h2>Compatibility with browsers and assistive technology</h2>
-          <ul>
-            <li>
-              Our website is designed to be compatible with assistive
-              technologies and the last two versions of major browsers
-            </li>
-            <li>
-              In Internet Explorer 10, 11, and older browsers, some aspects of
-              the website may not display optimally
-            </li>
-            <li>
-              The website is not designed for Internet Explorer 9 and earlier
-              versions
-            </li>
+            <li>Screen readers (including NVDA, JAWS, and VoiceOver)</li>
+            <li>Speech recognition software</li>
+            <li>Screen magnification tools</li>
+            <li>The last two versions of major browsers (Chrome, Firefox, Safari, Edge)</li>
           </ul>
 
-          <h2>Technical specifications</h2>
+          <h2>Technical Specifications</h2>
           <p>
             Our website relies upon the following technologies for conformance
             with WCAG 2.1:
@@ -208,34 +132,53 @@ export default function Accessibility() {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>JavaScript</li>
+            <li>WAI-ARIA</li>
             <li>SVG</li>
           </ul>
-          <p>
-            The following technologies are used to improve accessibility and the
-            user experience for everyone:
-          </p>
-          <ul>
-            <li>JavaScript</li>
-          </ul>
 
-          <h2>Limitations and alternatives</h2>
+          <h2>Limitations and Alternatives</h2>
           <p>
-            Several videos on our website use YouTube. As an alternative, the
-            videos are provided as MP4 files on our server.
+            Despite our best efforts to ensure the accessibility of our website,
+            there may be some limitations. If you encounter an issue, please
+            contact us so we can provide the information through an alternative
+            means or improve the accessibility of that content.
           </p>
 
-          <h2>Assessment approach</h2>
+          <h2>Feedback</h2>
+          <p>
+            We welcome your feedback on the accessibility of our website. If you
+            encounter accessibility barriers or have suggestions for
+            improvement, please contact us:
+          </p>
           <ul>
             <li>
-              We assess the accessibility of our website by self-evaluation
+              Email:{" "}
+              <a href="mailto:support@websitewannabe.com">
+                support@websitewannabe.com
+              </a>
             </li>
-            <li>We conduct annual reviews to maintain compliance</li>
+          </ul>
+          <p>
+            We try to respond to accessibility feedback within 2 business days.
+          </p>
+
+          <h2>Assessment Approach</h2>
+          <ul>
+            <li>
+              We assess the accessibility of our website through self-evaluation
+              and automated testing tools
+            </li>
+            <li>We conduct periodic reviews to maintain and improve compliance</li>
           </ul>
 
-          <h2>Formal approval of this accessibility statement</h2>
+          <h2>Formal Approval</h2>
           <p>
-            This Accessibility Statement is approved by Chris Tierney, Website
-            Wannabe Technology Support.
+            This Accessibility Statement is formally approved by Website Wannabe
+            for Estates Pressure Washing.
+          </p>
+          <p className="text-sm mt-8">
+            <em>Last updated: March 31, 2026</em>
           </p>
         </article>
       </div>

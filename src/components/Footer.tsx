@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
 import OptimizedImage from "./OptimizedImage";
@@ -9,45 +9,7 @@ interface FooterProps {
 
 export default function Footer({ darkMode }: FooterProps) {
   const loadAccessibilityTools = () => {
-    // Define the EqualWeb configuration
-    (window as any).interdeal = {
-      "sitekey": "20757c8cfaf6da895f46c68088047322",
-      "Position": "left",
-      "domains": {
-        "js": "https://cdn.equalweb.com/",
-        "acc": "https://access.equalweb.com/"
-      },
-      "Menulang": "EN",
-      "btnStyle": {
-        "vPosition": [
-          "90%",
-          "10%"
-        ],
-        "scale": [
-          "0.5",
-          "0.5"
-        ],
-        "color": {
-          "main": "#1C4ED8",
-          "second": "#FFFFFF"
-        },
-        "icon": {
-          "outline": false,
-          "type": 1,
-          "shape": "circle"
-        }
-      }
-    };
-
-    // Load the accessibility script
-    const coreCall = document.createElement('script');
-    coreCall.src = 'https://cdn.equalweb.com/core/5.1.0/accessibility.js';
-    coreCall.defer = true;
-    coreCall.integrity = 'sha512-TcsprTlCCE0u/G5TN3zikzkynCEIRcfd96+RejMcyd2HFPnTpVUDxumXmFb/rSJ3ogQM+b/yvYWLwV6duAuJQg==';
-    coreCall.crossOrigin = 'anonymous';
-    coreCall.setAttribute('data-cfasync', 'true');
-    
-    document.body.appendChild(coreCall);
+    (window as any).openAccessibilityTools();
   };
 
   return (
